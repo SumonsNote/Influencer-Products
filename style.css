@@ -57,6 +57,10 @@ nav {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
+  transition: .1s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
 }
 .company-logo {
   display: flex;
@@ -97,6 +101,7 @@ nav {
   border-radius: 5px;
   padding: 11px;
   padding-bottom: 30px;
+  overflow:hidden;
 }
 .product-name {
   color: #18191f;
@@ -112,6 +117,10 @@ nav {
 }
 .product-img img {
   width: 100%;
+  transition: .2s ease;
+}
+.product-img img:hover {
+    transform: scale(.9);
 }
 .product-rate-icon {
   color: #fb8200;
