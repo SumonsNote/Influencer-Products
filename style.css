@@ -49,7 +49,7 @@ nav {
 }
 
 .btn {
-  background-color: #e02c6d;
+  background-color: #0A0826;
   border: none;
   color: white;
   padding: 10px 16px;
@@ -80,6 +80,7 @@ nav {
 .collection-title {
   color: #3a3a3a;
   text-align: center;
+  text-transform: uppercase;
 }
 .products {
   display: grid;
@@ -127,7 +128,7 @@ nav {
   float: right;
   margin-top: 20px;
   margin-right: -58px;
-  color: #e02c6d;
+  color: #0A0826;
   cursor: pointer;
   font-weight: bold;
 }
@@ -147,7 +148,21 @@ footer small {
   font-size: 17px;
   cursor: pointer;
 }
-.news-card img {
-  width: 400px;
-  height: 300;
+.explore {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 108px;
+}
+.support-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #787885;
+}
+.learn-more {
+    color: #787885;
+    font-size: 16px;
+    cursor: pointer;
+}
+.support {
+    padding: 50px;
 }
