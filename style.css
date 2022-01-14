@@ -37,6 +37,9 @@ nav {
   display: flex;
   margin-top: 50px;
 }
+.banner-left {
+  margin-right: 100px;
+}
 .banner-left h2 {
   font-size: 52px;
   color: #3a3a3a;
@@ -47,9 +50,16 @@ nav {
   font-weight: 600;
   margin: 24px 0px;
 }
-
+.banner-right {
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+.banner-right img {
+  width: 440px;
+  height: 414px;
+}
 .btn {
-  background-color: #0A0826;
+  background-color: #0a0826;
   border: none;
   color: white;
   padding: 10px 16px;
@@ -57,10 +67,10 @@ nav {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
-  transition: .1s ease;
+  transition: 0.1s ease;
 }
 .btn:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .company-logo {
   display: flex;
@@ -101,7 +111,7 @@ nav {
   border-radius: 5px;
   padding: 11px;
   padding-bottom: 30px;
-  overflow:hidden;
+  overflow: hidden;
 }
 .product-name {
   color: #18191f;
@@ -117,11 +127,11 @@ nav {
 }
 .product-img img {
   width: 100%;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 .product-img img:hover {
-    transform: scale(.9);
-    cursor: zoom-in;
+  transform: scale(0.9);
+  cursor: zoom-in;
 }
 .product-rate-icon {
   color: #fb8200;
@@ -138,7 +148,7 @@ nav {
   float: right;
   margin-top: 20px;
   margin-right: -58px;
-  color: #0A0826;
+  color: #0a0826;
   cursor: pointer;
   font-weight: bold;
 }
@@ -159,20 +169,20 @@ footer small {
   cursor: pointer;
 }
 .explore {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
 }
 .support-title {
-    font-size: 30px;
-    font-weight: 300;
-    color: #787885;
+  font-size: 30px;
+  font-weight: 300;
+  color: #787885;
 }
 .learn-more {
-    color: #787885;
-    font-size: 16px;
-    cursor: pointer;
+  color: #787885;
+  font-size: 16px;
+  cursor: pointer;
 }
 .support {
-    padding: 50px;
+  padding: 50px;
 }
