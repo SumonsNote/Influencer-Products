@@ -121,6 +121,7 @@ nav {
 }
 .product-img img:hover {
     transform: scale(.9);
+    cursor: zoom-in;
 }
 .product-rate-icon {
   color: #fb8200;
