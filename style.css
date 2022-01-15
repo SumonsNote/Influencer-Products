@@ -1,15 +1,20 @@
+/* Fonts from google */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* Universal Part */
 * {
   margin: 0;
   padding: 0;
 }
+/* Start the body section */
 body {
   font-family: "Poppins", sans-serif;
 }
+/* Full containe of the site */
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
+/* Navigation style */
 nav {
   display: flex;
   justify-content: space-between;
@@ -33,6 +38,11 @@ nav {
   text-decoration: none;
   color: #3a3a3a;
 }
+/*---------------------
+End Navigation style 
+-----------------------*/
+
+/* Banner part */
 .banner {
   display: flex;
   margin-top: 50px;
@@ -60,6 +70,9 @@ nav {
   margin-left: 50px;
   height: 414px;
 }
+/* End of the banner */
+
+/* Button part */
 .btn {
   background-color: #0a0826;
   border: none;
@@ -74,6 +87,9 @@ nav {
 .btn:hover {
   transform: scale(1.1);
 }
+/* Button End */
+
+/* Brands Partners */
 .company-logo {
   display: flex;
   justify-content: space-evenly;
@@ -89,6 +105,8 @@ nav {
   max-width: 1052px;
   margin: 0 auto;
 }
+/* End */
+/* Products Collection */
 .collection {
   max-width: 1000px;
   margin: 0 auto;
@@ -154,22 +172,9 @@ nav {
   cursor: pointer;
   font-weight: bold;
 }
-footer {
-  text-align: center;
-  margin-top: 80px;
-  background-color: #0a0826;
-  color: #ffffff;
-  padding: 30px 0;
-  height: 150px;
-}
-footer small {
-  color: #d9dbe1;
-}
-.social-link i {
-  margin: 30px 10px;
-  font-size: 17px;
-  cursor: pointer;
-}
+/* End of Product Collection */
+
+/* Support of us */
 .explore {
   display: flex;
   justify-content: space-between;
@@ -187,6 +192,24 @@ footer small {
 .support {
   padding: 50px;
 }
+/* Last section */
+footer {
+  text-align: center;
+  margin-top: 80px;
+  background-color: #0a0826;
+  color: #ffffff;
+  padding: 30px 0;
+  height: 150px;
+}
+.social-link i {
+  margin: 30px 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+footer small {
+  color: #d9dbe1;
+}
+/* End */
 
 /* Responsive */
 @media (max-width: 950px) {
@@ -251,8 +274,7 @@ footer small {
     margin-top: 50px;
   }
   .company-logo {
-    margin: 0 auto;
-    justify-content: center;
+    margin: 30px 0;
     border: 0;
   }
   .products {
