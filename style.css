@@ -53,9 +53,11 @@ nav {
 .banner-right {
   background-image: url(./images/Circle\ design.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-right img {
   width: 440px;
+  margin-left: 50px;
   height: 414px;
 }
 .btn {
@@ -187,6 +189,32 @@ footer small {
 }
 
 /* Responsive */
+@media (max-width: 950px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-left {
+    margin: 0 218px;
+
+    margin-bottom: 50px;
+  }
+  .products {
+    display: grid;
+    margin: 54px 80px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product {
+    margin: 0 auto;
+  }
+  .more-product {
+    float: left;
+    margin-top: -40px;
+    margin-left: 95px;
+  }
+}
 
 @media (max-width: 800px) {
   .banner {
@@ -206,11 +234,17 @@ footer small {
   }
 }
 @media (max-width: 550px) {
+  .logo h3 {
+    margin-left: 136px;
+  }
   .menu-bar {
     display: none;
   }
   .banner {
     margin-left: 64px;
+  }
+  .banner-right {
+    margin-left: -60px;
   }
   .banner-left {
     margin: 0 auto;
@@ -221,11 +255,6 @@ footer small {
     justify-content: center;
     border: 0;
   }
-  .company-logo img {
-    margin: 64px 0;
-    justify-content: center;
-    border: 0;
-  }
   .products {
     display: flex;
     flex-direction: column;
@@ -233,7 +262,7 @@ footer small {
     margin-top: 50px;
   }
   .more-product {
-        margin-left: 99px;
+    margin-left: 99px;
   }
   .explore {
     display: flex;
